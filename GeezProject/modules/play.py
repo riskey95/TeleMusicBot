@@ -534,10 +534,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("🖱 Menu", callback_data="Menu"),
+                    InlineKeyboardButton("🗑 Close", callback_data="cls"),
+                ],[
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/GroupVirtualMusic"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/VirtualMusicChannel"),
+                ],[
+                    InlineKeyboardButton("👑 Owner", url="https://t.me/Bukan_guudlooking"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -581,10 +585,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🖱 Menu", callback_data="Menu"),
+                    InlineKeyboardButton("🗑 Close", callback_data="cls"),
+                ],[
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/GroupVirtualMusic"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/VirtualMusicChannel"),
+                ],[
+                    InlineKeyboardButton("👑 Owner", url="https://t.me/Bukan_guudlooking"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -607,9 +615,9 @@ async def play(_, message: Message):
             toxxt = "**__silahkan pilih lagu untuk diputar:__**\n\n"
             j = 0
             useer=user_name
-            emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
+            emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣"]
 
-            while j < 5:
+            while j < 6:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 **Duration** - {results[j]['duration']}\n"
                 toxxt += f" └ ⚡ __Powered by Geez Music Project__\n\n"
@@ -625,6 +633,9 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton("4️⃣", callback_data=f'plll 3|{query}|{user_id}'),
                         InlineKeyboardButton("5️⃣", callback_data=f'plll 4|{query}|{user_id}'),
+                    ],
+                    [
+                        InlineKeyboardButton("6️⃣", callback_data=f'plll 5|{query}|{user_id}'),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
                 ]
@@ -659,10 +670,14 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🖱 Menu", callback_data="Menu"),
+                    InlineKeyboardButton("🗑 Close", callback_data="cls"),
+                ],[
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/GroupVirtualMusic"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/VirtualMusicChannel"),
+                ],[
+                    InlineKeyboardButton("👑 Owner", url="https://t.me/Bukan_guudlooking"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -801,10 +816,14 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🖱 Menu", callback_data="Menu"),
+                    InlineKeyboardButton("🗑 Close", callback_data="cls"),
+                ],[
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/GroupVirtualMusic"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/VirtualMusicChannel"),
+                ],[
+                    InlineKeyboardButton("👑 Owner", url="https://t.me/Bukan_guudlooking"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
     requested_by = message.from_user.first_name
@@ -939,7 +958,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/VirtualMusicChannel")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1034,10 +1053,14 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🖱 Menu", callback_data="Menu"),
+                    InlineKeyboardButton("🗑 Close", callback_data="cls"),
+                ],[
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/GroupVirtualMusic"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/VirtualMusicChannel"),
+                ],[
+                    InlineKeyboardButton("👑 Owner", url="https://t.me/Bukan_guudlooking"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
     requested_by = useer_name
