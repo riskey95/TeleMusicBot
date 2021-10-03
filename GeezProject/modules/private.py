@@ -56,10 +56,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "🎈 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
-                ],[
-                    InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/VckyouuBitch")
+                        "🎁 Donate", url=f"https://t.me/Bukan_guudlooking")
                 ]
             ]
         ),
@@ -149,7 +146,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Vckyouuu/32"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/VirtualMusicChannel/12"
                     )
                 ]
             ]
@@ -168,10 +165,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/GeezSupportGroup"
+                        "Group Support", url=f"https://t.me/GroupVirtualMusic"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/VckyouuBitch"
+                        "Created By", url=f"https://t.me/Bukan_guudlooking"
                     )
                 ]
             ]
