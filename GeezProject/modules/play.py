@@ -34,11 +34,9 @@ from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
 from GeezProject.config import ARQ_API_KEY
-from GeezProject.config import BOT_NAME as bn
 from GeezProject.config import DURATION_LIMIT
-from GeezProject.config import UPDATES_CHANNEL as updateschannel
 from GeezProject.config import que
-from GeezProject.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,BOT_USERNAME, OWNER
+from GeezProject.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,BOT_USERNAME, OWNER, BOT_NAME
 from GeezProject.function.admins import admins as a
 from GeezProject.helpers.admins import get_administrators
 from GeezProject.helpers.channelmusic import get_chat_id
